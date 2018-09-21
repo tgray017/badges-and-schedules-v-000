@@ -37,12 +37,12 @@ end
 
 
 # final assign_rooms method
-def assign_rooms(names_array)
-  names_array.each_with_index.collect do |name, index|
-    room = index + 1
-    "Hello, #{name}! You'll be assigned to room #{room}!"
-  end
-end
+#  def assign_rooms(names_array)
+#    names_array.each_with_index.collect do |name, index|
+#      room = index + 1
+#      "Hello, #{name}! You'll be assigned to room #{room}!"
+#    end
+#  end
 
 
 def printer(names_array)
