@@ -11,8 +11,7 @@ end
 
 
 # original assign_rooms method
-
-#  def assign_rooms_1(names_array)
+#  def assign_rooms(names_array)
 #    room_assignments = []
 #    index = 0
 #    while index < 7
@@ -27,8 +26,7 @@ end
 
 
 # improved assign_rooms method
-
-#  def assign_rooms_2(names_array)
+#  def assign_rooms(names_array)
 #    room_assignments = []
 #      names_array.each_with_index do |name, index|
 #        room = index + 1
@@ -39,7 +37,6 @@ end
 
 
 # final assign_rooms method
-
 def assign_rooms(names_array)
   names_array.each_with_index.collect do |name, index|
     room = index + 1
