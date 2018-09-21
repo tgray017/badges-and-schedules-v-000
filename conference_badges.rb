@@ -51,5 +51,3 @@ def printer(names_array)
   badge_message_array.each {|message| puts message}
   room_assignments_array.each {|assignment| puts assignment}
 end
-
-# printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
