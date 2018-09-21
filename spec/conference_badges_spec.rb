@@ -102,7 +102,7 @@ TEXT
         # printed output.
         expect($stdout).to receive(:puts).with(line.chomp)
       end
-      expect(printer(attendees)).to eq(badges_and_room_assignments)
+      printer(attendees)
     end
 
   end
