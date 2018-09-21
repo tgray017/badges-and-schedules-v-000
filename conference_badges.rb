@@ -9,7 +9,8 @@ def batch_badge_creator(names_array)
 end
 
 # original assign_rooms method
-def assign_rooms_1(names_array)
+
+  def assign_rooms_1(names_array)
   room_assignments = []
   index = 0
   while index < 7
@@ -20,9 +21,11 @@ def assign_rooms_1(names_array)
     end
   end
   return room_assignments
-end
+  end
+
 
 # improved assign_rooms method
+
 def assign_rooms_2(names_array)
   room_assignments = []
     names_array.each_with_index do |name, index|
@@ -32,7 +35,9 @@ def assign_rooms_2(names_array)
   return room_assignments
 end
 
+
 # final assign_rooms method
+
 def assign_rooms(names_array)
   names_array.each_with_index.collect do |name, index|
     room = index + 1
