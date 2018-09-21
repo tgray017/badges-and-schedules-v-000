@@ -46,8 +46,6 @@ def assign_rooms(names_array)
 end
 
 def printer(names_array)
-  a =  batch_badge_creator(names_array)
-  b = assign_rooms(names_array)
-  puts a
-  puts b
+  puts batch_badge_creator(names_array)
+  puts assign_rooms(names_array)
 end
