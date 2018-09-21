@@ -2,11 +2,13 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
+
 def batch_badge_creator(names_array)
   badge_messages = []
   names_array.each {|name| badge_messages << badge_maker(name)}
   badge_messages
 end
+
 
 # original assign_rooms method
 
@@ -44,6 +46,7 @@ def assign_rooms(names_array)
     "Hello, #{name}! You'll be assigned to room #{room}!"
   end
 end
+
 
 def printer(names_array)
   puts batch_badge_creator(names_array)
