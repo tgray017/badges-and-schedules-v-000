@@ -56,4 +56,4 @@ def printer(names_array)
     puts assign_rooms(names_array)
 end
 
-# printer(["Tom", "Victoria", "Wilson", "Patrick", "Patti", "Duncan", "Cassandra"])
+# printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
