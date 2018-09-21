@@ -26,14 +26,14 @@ end
 
 # improved assign_rooms method
 
-  def assign_rooms_2(names_array)
-    room_assignments = []
-      names_array.each_with_index do |name, index|
-        room = index + 1
-        room_assignments << "Hello, #{name}! You'll be assigned to room #{room}!"
-      end
-    return room_assignments
-  end
+#  def assign_rooms_2(names_array)
+#    room_assignments = []
+#      names_array.each_with_index do |name, index|
+#        room = index + 1
+#        room_assignments << "Hello, #{name}! You'll be assigned to room #{room}!"
+#      end
+#    return room_assignments
+#  end
 
 
 # final assign_rooms method
