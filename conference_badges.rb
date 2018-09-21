@@ -53,8 +53,8 @@ end
 
 def printer(names_array)
   names_array.each do |name|
-  puts batch_badge_creator(names_array)
-  puts assign_rooms(names_array)
+    puts batch_badge_creator(names_array)
+    puts assign_rooms(names_array)
 end
 
 # printer(["Tom", "Victoria", "Wilson", "Patrick", "Patti", "Duncan", "Cassandra"])
