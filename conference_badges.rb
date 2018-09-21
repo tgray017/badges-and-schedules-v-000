@@ -46,9 +46,10 @@ end
 
 
 def printer(names_array)
-  names_array.each 
-  puts batch_badge_creator(names_array)
-  puts assign_rooms(names_array)
+  badge_message_array = batch_badge_creator(names_array)
+  room_assignments_array = assign_rooms(names_array)
+  badge_message_array.each {|message| puts message}
+  room_assignments_array.each |assignment| puts assignment}
 end
 
 # printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
